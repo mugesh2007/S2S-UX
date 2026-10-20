@@ -135,6 +135,7 @@ cd "/home/mugesh-surya/Desktop/IT Hackthon"
 cd backend
 
 # 1. Create and activate virtual environment
+# (On Debian/Ubuntu if ensurepip is missing: sudo apt install python3-venv or use --without-pip)
 python3 -m venv .venv
 source .venv/bin/activate
 
