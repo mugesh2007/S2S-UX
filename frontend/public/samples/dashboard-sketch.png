@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800">
+  <rect width="1280" height="800" fill="#0B1120"/>
+  <!-- Blueprint grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="800" fill="url(#grid)"/>
+
+  <!-- Hand-drawn sketch strokes simulation -->
+  <rect x="40" y="30" width="1200" height="70" rx="8" fill="none" stroke="#60A5FA" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="70" y="72" fill="#93C5FD" font-family="monospace" font-size="20">[NAVBAR: CloudOps AI | Links: Overview, Clusters, Security | Profile Avatar]</text>
+  <text x="1100" y="70" fill="#F59E0B" font-family="monospace" font-size="14">Note: Sticky</text>
+
+  <text x="40" y="155" fill="#E2E8F0" font-family="monospace" font-size="26" font-weight="bold">"System Metrics &amp; Health"</text>
+  <rect x="1000" y="125" width="240" height="45" rx="6" fill="none" stroke="#3B82F6" stroke-width="2"/>
+  <text x="1025" y="152" fill="#60A5FA" font-family="monospace" font-size="14">[BTN: Run Health Audit]</text>
+
+  <!-- Metric boxes -->
+  <rect x="40" y="210" width="380" height="180" rx="10" fill="none" stroke="#64748B" stroke-width="2"/>
+  <text x="60" y="245" fill="#94A3B8" font-family="monospace" font-size="16">Global API Latency</text>
+  <text x="60" y="310" fill="#60A5FA" font-family="monospace" font-size="36" font-weight="bold">24.8 ms</text>
+  <text x="60" y="355" fill="#34D399" font-family="monospace" font-size="14">[Badge: Optimal SLA]</text>
+
+  <rect x="450" y="210" width="380" height="180" rx="10" fill="none" stroke="#64748B" stroke-width="2"/>
+  <text x="470" y="245" fill="#94A3B8" font-family="monospace" font-size="16">Compute Pool Load</text>
+  <text x="470" y="310" fill="#A78BFA" font-family="monospace" font-size="36" font-weight="bold">42.6%</text>
+  <text x="470" y="355" fill="#60A5FA" font-family="monospace" font-size="14">[Badge: Balanced]</text>
+
+  <rect x="860" y="210" width="380" height="180" rx="10" fill="none" stroke="#64748B" stroke-width="2"/>
+  <text x="880" y="245" fill="#94A3B8" font-family="monospace" font-size="16">WAF Firewall Blocks</text>
+  <text x="880" y="310" fill="#FBBF24" font-family="monospace" font-size="36" font-weight="bold">1,429</text>
+  <text x="880" y="355" fill="#F59E0B" font-family="monospace" font-size="14">[Badge: Mitigated]</text>
+
+  <!-- Table block -->
+  <rect x="40" y="430" width="1200" height="320" rx="10" fill="none" stroke="#475569" stroke-width="2"/>
+  <text x="60" y="470" fill="#CBD5E1" font-family="monospace" font-size="18">Active Workloads &amp; Services Telemetry</text>
+  <line x1="40" y1="495" x2="1240" y2="495" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="530" fill="#94A3B8" font-family="monospace" font-size="14">Service Name | Region | Status | Uptime</text>
+  <line x1="40" y1="550" x2="1240" y2="550" stroke="#1E293B" stroke-width="1"/>
+  <text x="60" y="585" fill="#E2E8F0" font-family="monospace" font-size="14">auth-service-v2 | us-east-1 | Active | 99.99%</text>
+  <text x="60" y="630" fill="#E2E8F0" font-family="monospace" font-size="14">ingress-proxy | eu-west-1 | Active | 100.0%</text>
+  <text x="60" y="675" fill="#E2E8F0" font-family="monospace" font-size="14">cache-redis-sharded | ap-southeast-1 | Syncing | 99.91%</text>
+</svg>
